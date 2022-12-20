@@ -30,3 +30,9 @@ function buildGraph(edges) {
 
 const roadGraph = buildGraph(roads);
 
+class VillageState {
+    constructor(place, parcels) {
+        this.place = place;
+        this.parcels = parcels;
+    }
+}
