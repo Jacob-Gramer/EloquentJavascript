@@ -169,4 +169,4 @@ function compareRobots(robot1, memory1, robot2, memory2) {
     console.log('Route robot avg: ', total1/100, 'Goal robot avg: ', total2/100);
 }
 
-// compareRobots(routeRobot, [], goalOrientedRobot, []);
+compareRobots(routeRobot, [], goalOrientedRobot, []);
